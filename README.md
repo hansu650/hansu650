@@ -67,12 +67,22 @@ I am building my open-source workflow through small, focused contributions:
 - Submitted focused bug-fix / maintenance PRs in Python packaging and database tooling projects
 - Practicing the full contribution loop: issue selection, local reproduction, minimal patch, tests, review response, and PR maintenance
 
-## GitHub Snapshot
+## Engineering Snapshot
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hansu650&show_icons=true&hide_border=true&theme=default&rank_icon=github" alt="Qin Tian GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hansu650&layout=compact&hide_border=true&theme=default" alt="Qin Tian top languages" />
-</div>
+<table>
+  <tr>
+    <td><strong>Primary direction</strong></td>
+    <td>Backend engineering, AI engineering, data analysis, and practical web systems</td>
+  </tr>
+  <tr>
+    <td><strong>Open-source practice</strong></td>
+    <td>Merged Matplotlib PR; submitted focused bug-fix and maintenance PRs in Python packaging and database tooling projects</td>
+  </tr>
+  <tr>
+    <td><strong>Project style</strong></td>
+    <td>Small reproducible experiments, course projects, deployment practice, and readable engineering records</td>
+  </tr>
+</table>
 
 ## Current Focus
 
