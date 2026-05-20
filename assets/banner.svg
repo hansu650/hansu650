@@ -25,11 +25,6 @@
 
   <rect width="1200" height="320" fill="url(#background)"/>
 
-  <g opacity="0.18">
-    <circle cx="162" cy="68" r="96" fill="#E0F2FE"/>
-    <circle cx="1040" cy="86" r="128" fill="#F5D0FE"/>
-  </g>
-
   <g filter="url(#titleShadow)">
     <text x="600" y="145" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="750" letter-spacing="0">
       Qin Tian
@@ -43,13 +38,13 @@
   </g>
 
   <g>
-    <path fill="url(#waveB)" opacity="0.64" d="M-120 250C10 226 116 241 242 258C386 277 514 268 650 238C789 207 926 206 1060 236C1140 254 1210 261 1320 244V320H-120V250Z">
+    <path fill="url(#waveB)" opacity="0.64" d="M-120 270C12 236 126 252 248 282C390 318 522 304 658 254C798 202 930 211 1062 262C1142 293 1216 293 1320 260V320H-120V270Z">
       <animateTransform attributeName="transform" type="translate" values="0 0; 60 0; 0 0" dur="7s" repeatCount="indefinite"/>
     </path>
-    <path fill="url(#waveA)" opacity="0.82" d="M-120 276C8 247 137 253 270 264C416 276 524 286 669 264C814 242 938 213 1080 230C1174 242 1255 267 1320 250V320H-120V276Z">
+    <path fill="url(#waveA)" opacity="0.82" d="M-120 292C12 252 138 263 274 286C418 311 536 320 674 286C820 250 940 216 1082 242C1176 259 1254 293 1320 262V320H-120V292Z">
       <animateTransform attributeName="transform" type="translate" values="0 0; -72 0; 0 0" dur="9s" repeatCount="indefinite"/>
     </path>
-    <path fill="#FFFFFF" opacity="0.96" d="M-120 298C22 284 147 282 282 292C421 303 565 312 710 296C866 278 1003 250 1148 266C1222 274 1278 286 1320 277V320H-120V298Z">
+    <path fill="#FFFFFF" opacity="0.96" d="M-120 314C22 294 150 292 286 307C426 322 562 335 712 312C868 288 1008 254 1150 276C1222 287 1278 306 1320 290V320H-120V314Z">
       <animateTransform attributeName="transform" type="translate" values="0 0; 48 0; 0 0" dur="11s" repeatCount="indefinite"/>
     </path>
   </g>
