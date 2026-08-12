@@ -19,6 +19,7 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 - Major rank: **1st** · Academic average: **91.54 / 100**
 - Lanqiao Cup Python: **Provincial First Prize · National First Prize**
 - Focus: **AI Agent / Python SDK / backend engineering / applied AI**
+- **Three first-author manuscripts** currently under anonymous review
 - Open-source patches merged into **OpenAI Agents SDK**, **H2 Database**, and **Matplotlib**
 - Open to **AI engineering, Python backend, and software engineering internships**
 
@@ -33,33 +34,31 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 | [browser-use #5457](https://github.com/browser-use/browser-use/pull/5457) | **Under review** | Reported missing browser elements as action errors and added real-browser regression tests. |
 | [PR-Agent #2636](https://github.com/The-PR-Agent/pr-agent/pull/2636) | **Under review** | Clarified GitLab pipeline/webhook behavior and dependency-bot filtering workflows. |
 
-## Selected Engineering Work
+## Selected Engineering & Research Work
 
 ### [Study Focus System](https://github.com/hansu650/study-focus-system)
 
 AI-assisted learning and focus platform built with **FastAPI, MySQL, SQLAlchemy, Electron, JavaScript, and OpenAI API**. I coordinated the team and worked across requirements, API design, database modeling, frontend/backend integration, focus-guard behavior, and deployment.
 
-### [Lun-Wen](https://github.com/hansu650/Lun-Wen)
+### Research Manuscripts
 
-Reproducible **RGB-D semantic segmentation** experiments with **PyTorch Lightning, DFormerV2, ResNet-18, gated multi-stage fusion, and NYUDepthV2**. The project records baseline runs, experiment configuration, validation metrics, and training-only auxiliary-loss studies.
+First-author work spanning **RGB-D semantic segmentation** and **visual time-series anomaly detection**. I built reproducible PyTorch/Lightning and frozen-ViT evaluation pipelines, controlled ablations, robustness analyses, and claim-to-result evidence tracking.
 
-### Sky-YOLO Lightweight Detection
-
-Competition project for dense aerial small-object detection. I worked on modular YOLOv8 changes, training/validation workflows, and comparisons using **AP50, FLOPs, Params, and COCOeval**.
+All three manuscripts are under anonymous review. Titles, venue assignments, metrics, and repositories remain private until disclosure is permitted.
 
 ## Technical Focus
 
 | Area | Stack and practice |
 | --- | --- |
 | **Python / AI Agent** | Python, OpenAI Agents SDK, LiteLLM, browser-use, tool-call workflows, pytest |
-| **Applied AI** | PyTorch, PyTorch Lightning, YOLOv8, DFormerV2, OpenCV, pandas, scikit-learn, ONNX |
+| **Applied AI** | PyTorch, PyTorch Lightning, OpenCLIP ViT-B/16, DFormerV2, RGB-D segmentation, visual time-series anomaly detection |
 | **Backend / Data** | FastAPI, SQLAlchemy, MySQL, REST APIs, JWT, schema design, regression testing |
 | **Engineering** | Git, GitHub Actions, issue triage, minimal patches, CI review, Windows/Linux workflows |
 
 ## Current Direction
 
 - Deepen AI Agent and Python SDK engineering through reviewable open-source work.
-- Turn competition and coursework systems into reproducible, deployment-ready repositories.
+- Maintain reproducible research artifacts during anonymous review, then publish code and evidence when disclosure is permitted.
 - Build stronger backend foundations around testing, observability, databases, and API design.
 
 ## Contact
