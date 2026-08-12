@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Qin Tian - AI Agent and Python Engineering" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1B2A,50:1B3A5C,100:7B2D8E&text=Qin%20Tian&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=Software%20Engineering%20Undergraduate&descAlignY=58&animation=fadeIn" width="100%" alt="Qin Tian animated profile banner" />
 </div>
 
 <div align="center">
