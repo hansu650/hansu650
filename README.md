@@ -20,7 +20,7 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 - Lanqiao Cup Python: **Provincial First Prize · National First Prize**
 - Focus: **AI Agent / Python SDK / backend engineering / applied AI**
 - **Three first-author manuscripts** currently under anonymous review
-- Open-source patches merged into **OpenAI Agents SDK**, **H2 Database**, and **Matplotlib**
+- **4 external technical pull requests merged** across **OpenAI Agents SDK**, **charset-normalizer**, **H2 Database**, and **Matplotlib**
 - Open to **AI engineering, Python backend, and software engineering internships**
 
 ## Open Source Contributions
@@ -28,11 +28,16 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 | Project | Status | Contribution |
 | --- | --- | --- |
 | [OpenAI Agents SDK #4372](https://github.com/openai/openai-agents-python/pull/4372) | **Merged** | Added boundary validation and regression tests for non-positive audio channel counts. |
+| [charset-normalizer #794](https://github.com/jawah/charset_normalizer/pull/794) | **Merged** | Restored source and wheel builds with setuptools 84.x; verified packaging, tests, lint, and coverage. |
 | [H2 Database #4344](https://github.com/h2database/h2database/pull/4344) | **Merged** | Fixed `SCRIPT` tool option placement and added command-line regression coverage. |
 | [Matplotlib #31664](https://github.com/matplotlib/matplotlib/pull/31664) | **Merged** | Clarified `markevery` float-spacing semantics in the public API documentation. |
+| [AnyIO #1277](https://github.com/agronholm/anyio/pull/1277) | **Under review · CI green** | Hardened force-close behavior for asyncio TCP and UDP streams with deterministic file-descriptor regressions. |
+| [AnyIO #1279](https://github.com/agronholm/anyio/pull/1279) | **Under review** | Fixed the worker-result delivery race when an event loop closes between computation and scheduling. |
 | [LiteLLM #36658](https://github.com/BerriAI/litellm/pull/36658) | **Under review** | Prevented false JSON warnings for intentionally redacted tool arguments; added focused tests. |
 | [browser-use #5457](https://github.com/browser-use/browser-use/pull/5457) | **Under review** | Reported missing browser elements as action errors and added real-browser regression tests. |
 | [PR-Agent #2636](https://github.com/The-PR-Agent/pr-agent/pull/2636) | **Under review** | Clarified GitLab pipeline/webhook behavior and dependency-bot filtering workflows. |
+
+> Merged and under-review work are listed separately. Closed or superseded contributions are intentionally excluded.
 
 ## Selected Engineering & Research Work
 
