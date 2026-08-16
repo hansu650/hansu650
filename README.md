@@ -31,12 +31,15 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 | [charset-normalizer #794](https://github.com/jawah/charset_normalizer/pull/794) | **Merged** | Restored source and wheel builds with setuptools 84.x; verified packaging, tests, lint, and coverage. |
 | [H2 Database #4344](https://github.com/h2database/h2database/pull/4344) | **Merged** | Fixed `SCRIPT` tool option placement and added command-line regression coverage. |
 | [Matplotlib #31664](https://github.com/matplotlib/matplotlib/pull/31664) | **Merged** | Clarified `markevery` float-spacing semantics in the public API documentation. |
-| [AnyIO #1277](https://github.com/agronholm/anyio/pull/1277) | **Under review · CI green** | Hardened force-close behavior for asyncio TCP and UDP streams with deterministic file-descriptor regressions. |
-| [AnyIO #1279](https://github.com/agronholm/anyio/pull/1279) | **Under review** | Fixed the worker-result delivery race when an event loop closes between computation and scheduling. |
-| [LiteLLM #36658](https://github.com/BerriAI/litellm/pull/36658) | **Under review** | Prevented false JSON warnings for intentionally redacted tool arguments; added focused tests. |
-| [browser-use #5457](https://github.com/browser-use/browser-use/pull/5457) | **Under review** | Reported missing browser elements as action errors and added real-browser regression tests. |
-| [PR-Agent #2636](https://github.com/The-PR-Agent/pr-agent/pull/2636) | **Under review** | Clarified GitLab pipeline/webhook behavior and dependency-bot filtering workflows. |
+| [AnyIO #1277](https://github.com/agronholm/anyio/pull/1277) | **Under review · CI green · maintainer feedback** | Hardened force-close behavior for asyncio TCP and UDP streams with deterministic file-descriptor regressions. |
+| [AnyIO #1279](https://github.com/agronholm/anyio/pull/1279) | **Under review · CI green · maintainer feedback** | Fixed the worker-result delivery race when an event loop closes between computation and scheduling. |
+| [LiteLLM #36658](https://github.com/BerriAI/litellm/pull/36658) | **Approved · awaiting merge** | Prevented false JSON warnings for intentionally redacted tool arguments; added focused tests. |
+| [browser-use #5457](https://github.com/browser-use/browser-use/pull/5457) | **Under review · CLA pending** | Reported missing browser elements as action errors and added real-browser regression tests. |
+| [PR-Agent #2636](https://github.com/The-PR-Agent/pr-agent/pull/2636) | **Under review · automated review clean** | Clarified GitLab pipeline/webhook behavior and dependency-bot filtering workflows. |
+| [SQLAlchemy #13503](https://github.com/sqlalchemy/sqlalchemy/pull/13503) | **Code review in progress · CI pending** | Added per-statement `asyncpg_timeout` support with unit, integration, documentation, and changelog coverage. |
 
+> Open-review snapshot (2026-08-16): six active technical PRs are tracked here; one is approved and awaiting merge, one is blocked on CLA completion, and the remainder are in maintainer review.
+>
 > Merged and under-review work are listed separately. Closed or superseded contributions are intentionally excluded.
 
 ## Selected Engineering & Research Work
