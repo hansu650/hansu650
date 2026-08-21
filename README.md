@@ -20,27 +20,32 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 - Lanqiao Cup Python: **Provincial First Prize · National First Prize**
 - Focus: **AI Agent / Python SDK / backend engineering / applied AI**
 - **Three first-author manuscripts** currently under anonymous review
-- **4 external technical pull requests merged** across **OpenAI Agents SDK**, **charset-normalizer**, **H2 Database**, and **Matplotlib**
+- **5 external technical pull requests merged** across **OpenAI Agents SDK, PR-Agent, charset-normalizer, H2 Database, and Matplotlib**
 - Open to **AI engineering, Python backend, and software engineering internships**
 
 ## Open Source Contributions
 
-| Project | Status | Contribution |
-| --- | --- | --- |
-| [OpenAI Agents SDK #4372](https://github.com/openai/openai-agents-python/pull/4372) | **Merged** | Added boundary validation and regression tests for non-positive audio channel counts. |
-| [charset-normalizer #794](https://github.com/jawah/charset_normalizer/pull/794) | **Merged** | Restored source and wheel builds with setuptools 84.x; verified packaging, tests, lint, and coverage. |
-| [H2 Database #4344](https://github.com/h2database/h2database/pull/4344) | **Merged** | Fixed `SCRIPT` tool option placement and added command-line regression coverage. |
-| [Matplotlib #31664](https://github.com/matplotlib/matplotlib/pull/31664) | **Merged** | Clarified `markevery` float-spacing semantics in the public API documentation. |
-| [AnyIO #1277](https://github.com/agronholm/anyio/pull/1277) | **Under review · CI green · maintainer feedback** | Hardened force-close behavior for asyncio TCP and UDP streams with deterministic file-descriptor regressions. |
-| [AnyIO #1279](https://github.com/agronholm/anyio/pull/1279) | **Under review · CI green · maintainer feedback** | Fixed the worker-result delivery race when an event loop closes between computation and scheduling. |
-| [LiteLLM #36658](https://github.com/BerriAI/litellm/pull/36658) | **Approved · awaiting merge** | Prevented false JSON warnings for intentionally redacted tool arguments; added focused tests. |
-| [browser-use #5457](https://github.com/browser-use/browser-use/pull/5457) | **Under review · CLA pending** | Reported missing browser elements as action errors and added real-browser regression tests. |
-| [PR-Agent #2636](https://github.com/The-PR-Agent/pr-agent/pull/2636) | **Under review · automated review clean** | Clarified GitLab pipeline/webhook behavior and dependency-bot filtering workflows. |
-| [SQLAlchemy #13503](https://github.com/sqlalchemy/sqlalchemy/pull/13503) | **Code review in progress · CI pending** | Added per-statement `asyncpg_timeout` support with unit, integration, documentation, and changelog coverage. |
+### Merged upstream
 
-> Open-review snapshot (2026-08-16): six active technical PRs are tracked here; one is approved and awaiting merge, one is blocked on CLA completion, and the remainder are in maintainer review.
->
-> Merged and under-review work are listed separately. Closed or superseded contributions are intentionally excluded.
+| Project | Contribution |
+| --- | --- |
+| [OpenAI Agents SDK #4372](https://github.com/openai/openai-agents-python/pull/4372) | Added boundary validation and regression tests for non-positive audio channel counts. |
+| [PR-Agent #2636](https://github.com/The-PR-Agent/pr-agent/pull/2636) | Closed a long-standing GitLab documentation gap by clarifying pipeline/webhook behavior and dependency-bot filtering workflows. |
+| [charset-normalizer #794](https://github.com/jawah/charset_normalizer/pull/794) | Restored source and wheel builds with setuptools 84.x; verified packaging, tests, lint, and coverage. |
+| [H2 Database #4344](https://github.com/h2database/h2database/pull/4344) | Fixed `SCRIPT` tool option placement and added command-line regression coverage. |
+| [Matplotlib #31664](https://github.com/matplotlib/matplotlib/pull/31664) | Clarified `markevery` float-spacing semantics in the public API documentation. |
+
+### Selected work in review
+
+| Project | Current status | Contribution |
+| --- | --- | --- |
+| [AnyIO #1277](https://github.com/agronholm/anyio/pull/1277) | **Open · CI green · review changes pending** | Hardened force-close behavior for asyncio TCP and UDP streams with deterministic file-descriptor regressions. |
+| [AnyIO #1279](https://github.com/agronholm/anyio/pull/1279) | **Open · CI green · test redesign under discussion** | Fixed the worker-result delivery race when an event loop closes between computation and scheduling. |
+| [LiteLLM #36658](https://github.com/BerriAI/litellm/pull/36658) | **Open · CI green · awaiting maintainer review** | Prevented false JSON warnings for intentionally redacted tool arguments and added focused tests. |
+| [browser-use #5457](https://github.com/browser-use/browser-use/pull/5457) | **Open · CLA pending** | Reported missing browser elements as action errors and added real-browser regression tests. |
+| [SQLAlchemy #13503](https://github.com/sqlalchemy/sqlalchemy/pull/13503) | **Open · code review claim active · external check pending** | Added per-statement `asyncpg_timeout` support with unit, integration, documentation, and changelog coverage. |
+
+> Status snapshot: **2026-08-21**. Merged and in-review contributions are separated deliberately. Closed, superseded, or duplicate work is excluded from the public portfolio.
 
 ## Selected Engineering & Research Work
 
@@ -77,4 +82,3 @@ All three manuscripts are under anonymous review. Titles, venue assignments, met
 <div align="center">
   <sub>Building practical AI systems, one verifiable change at a time.</sub>
 </div>
-
