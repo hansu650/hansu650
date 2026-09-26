@@ -20,7 +20,7 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 - Lanqiao Cup Python: **Provincial First Prize · National First Prize**
 - Focus: **AI Agent / Python SDK / backend engineering / applied AI**
 - **Three first-author manuscripts** currently under anonymous review
-- **6 external technical pull requests merged** across **OpenAI Agents SDK, AnyIO, PR-Agent, charset-normalizer, H2 Database, and Matplotlib**
+- **7 external technical pull requests merged** across **OpenAI Agents SDK, AnyIO, Hutool, PR-Agent, charset-normalizer, H2 Database, and Matplotlib**
 - Open to **AI engineering, Python backend, and software engineering internships**
 
 ## Open Source Contributions
@@ -31,6 +31,7 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 | --- | --- |
 | [OpenAI Agents SDK #4372](https://github.com/openai/openai-agents-python/pull/4372) | Added boundary validation and regression tests for non-positive audio channel counts. |
 | [AnyIO #1279](https://github.com/agronholm/anyio/pull/1279) | Fixed a worker-result delivery race during asyncio event-loop shutdown and added a deterministic end-to-end regression test. |
+| [Hutool #4321](https://github.com/chinabugotech/hutool/pull/4321) | Fixed CSV comment handling with CRLF line endings, preserving original line numbers and header/range behavior; added 17 passing regression cases. |
 | [PR-Agent #2636](https://github.com/The-PR-Agent/pr-agent/pull/2636) | Closed a long-standing GitLab documentation gap by clarifying pipeline/webhook behavior and dependency-bot filtering workflows. |
 | [charset-normalizer #794](https://github.com/jawah/charset_normalizer/pull/794) | Restored source and wheel builds with setuptools 84.x; verified packaging, tests, lint, and coverage. |
 | [H2 Database #4344](https://github.com/h2database/h2database/pull/4344) | Fixed `SCRIPT` tool option placement and added command-line regression coverage. |
@@ -40,12 +41,11 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 
 | Project | Current status | Contribution |
 | --- | --- | --- |
-| [AnyIO #1277](https://github.com/agronholm/anyio/pull/1277) | **Open · CI green · awaiting maintainer review** | Hardened force-close behavior for asyncio TCP and UDP streams with deterministic file-descriptor regressions. |
-| [LiteLLM #36658](https://github.com/BerriAI/litellm/pull/36658) | **Open · CI green · awaiting maintainer review** | Prevented false JSON warnings for intentionally redacted tool arguments and added focused tests. |
+| [AnyIO #1277](https://github.com/agronholm/anyio/pull/1277) | **Open · CI green · awaiting maintainer review** | Hardened concurrent force-close behavior for asyncio TCP socket streams while preserving cancellation, with deterministic regression tests. |
 | [browser-use #5457](https://github.com/browser-use/browser-use/pull/5457) | **Open · CLA pending** | Reported missing browser elements as action errors and added real-browser regression tests. |
-| [SQLAlchemy #13503](https://github.com/sqlalchemy/sqlalchemy/pull/13503) | **Open · code review claim active · external check pending** | Added per-statement `asyncpg_timeout` support with unit, integration, documentation, and changelog coverage. |
+| [SQLAlchemy #13503](https://github.com/sqlalchemy/sqlalchemy/pull/13503) | **Open · Gerrit review pending** | Added per-statement `asyncpg_timeout` support with unit, integration, documentation, and changelog coverage. |
 
-> Status snapshot: **2026-08-23**. Merged and in-review contributions are separated deliberately. Closed, superseded, or duplicate work is excluded from the public portfolio.
+> Status snapshot: **2026-09-26**. Merged and in-review contributions are separated deliberately. Closed, superseded, or duplicate work is excluded from the public portfolio.
 
 ## Selected Engineering & Research Work
 
