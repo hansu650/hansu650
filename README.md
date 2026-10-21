@@ -20,7 +20,7 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 - Lanqiao Cup Python: **Provincial First Prize · National First Prize**
 - Focus: **AI Agent / Python SDK / backend engineering / applied AI**
 - **Three first-author manuscripts** currently under anonymous review
-- **9 external technical pull requests merged** across **OpenAI Agents SDK, AnyIO, pydantic-settings, isort, Hutool, PR-Agent, charset-normalizer, H2 Database, and Matplotlib**
+- **10 external technical pull requests merged** across **OpenAI Agents SDK, AnyIO, pydantic-settings, isort, Pydash, Hutool, PR-Agent, charset-normalizer, H2 Database, and Matplotlib**
 - Open to **AI engineering, Python backend, and software engineering internships**
 
 ## Open Source Contributions
@@ -33,6 +33,7 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 | [AnyIO #1279](https://github.com/agronholm/anyio/pull/1279) | Fixed a worker-result delivery race during asyncio event-loop shutdown and added a deterministic end-to-end regression test. |
 | [pydantic-settings #994](https://github.com/pydantic/pydantic-settings/pull/994) | Fixed empty JSON array parsing in CLI list arguments, with regression tests and documentation; refined through maintainer review to preserve mapping-union behavior. |
 | [isort #2683](https://github.com/PyCQA/isort/pull/2683) | Preserved CRLF blank lines during float-to-top preprocessing and fixed false-positive `--check` failures, with regression coverage. |
+| [Pydash #351](https://github.com/dgilland/pydash/pull/351) | Fixed single-array intersection deduplication while honoring custom comparison rules and preserving the first representative; added 29 regression/control cases. |
 | [Hutool #4321](https://github.com/chinabugotech/hutool/pull/4321) | Fixed CSV comment handling with CRLF line endings, preserving original line numbers and header/range behavior; added 17 passing regression cases. |
 | [PR-Agent #2636](https://github.com/The-PR-Agent/pr-agent/pull/2636) | Closed a long-standing GitLab documentation gap by clarifying pipeline/webhook behavior and dependency-bot filtering workflows. |
 | [charset-normalizer #794](https://github.com/jawah/charset_normalizer/pull/794) | Restored source and wheel builds with setuptools 84.x; verified packaging, tests, lint, and coverage. |
@@ -43,11 +44,10 @@ I am **Qin Tian**, a Software Engineering undergraduate at **Hubei University**.
 
 | Project | Current status | Contribution |
 | --- | --- | --- |
-| [AnyIO #1277](https://github.com/agronholm/anyio/pull/1277) | **Open · CI green · awaiting maintainer review** | Hardened concurrent force-close behavior for asyncio TCP socket streams while preserving cancellation, with deterministic regression tests. |
 | [browser-use #5457](https://github.com/browser-use/browser-use/pull/5457) | **Open · CLA pending** | Reported missing browser elements as action errors and added real-browser regression tests. |
 | [SQLAlchemy #13503](https://github.com/sqlalchemy/sqlalchemy/pull/13503) | **Open · Gerrit review pending** | Added per-statement `asyncpg_timeout` support with unit, integration, documentation, and changelog coverage. |
 
-> Status snapshot: **2026-10-02**. Merged and in-review contributions are separated deliberately. Closed, superseded, or duplicate work is excluded from the public portfolio.
+> Status snapshot: **2026-10-21**. Merged and in-review contributions are separated deliberately. Closed, superseded, or duplicate work is excluded from the public portfolio.
 
 ## Selected Engineering & Research Work
 
